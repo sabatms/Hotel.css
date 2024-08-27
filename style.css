@@ -1,0 +1,206 @@
+.text1{
+    margin: 0 0 20px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5;
+    align-items: center;
+    color: #55575c;
+}
+
+.text2{
+    margin: 0 0 40px 2px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #959595;;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.postcard {
+    width: 300px; 
+    height: 380px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+.postcard img {
+    width: 100%; 
+    height: 200px;
+    object-fit: cover;
+}
+
+.postcard:hover {
+    transform: scale(1.05);
+}
+.hotel-room {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #55575c;
+}
+.details {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 15px;
+    
+}
+.item img {
+    width: 80%; 
+    height: 100%; 
+    margin-right: 5px; 
+    object-fit: cover;
+}
+.item-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    font-size: 10px; 
+    font-weight: bold;
+    color: #7c7a7a;
+}
+
+.item-text span {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.Text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    margin-left: 10px;
+
+}
+
+.Text span {
+    margin-left: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #7c7a7a;
+}
+
+.container2  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.container2 span{
+    color: #55575c;
+}
+
+.container2 h1{
+    color: #464646;
+}
+
+
+footer {
+    margin-top: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+.postcard1 {
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: -25px;
+}
+
+.postcard1 img{
+   width: 100px;
+   height: 60px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   align-items: flex-end;
+   align-content: center;
+   margin-top: 10px; 
+}
+
+.postcard1 h3{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: -24px;
+        margin-right: -260px;
+}
+
+.postcard1 span{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    font-size: 12px;
+}
+
+.postcard1 span{
+    text-align: center;
+}
+
+.postcard1:nth-child(-n+3) {
+    align-self: flex-start;
+}
+
+.postcard1:nth-child(n+4) {
+    align-self: flex-end;
+}
